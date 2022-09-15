@@ -20790,8 +20790,9 @@ h4.margin {
 
 @media (max-width: 767px) {
 	.shortcode-team-slider .flexslider .slides img {
-		position: relative;
+		/* position: relative; */
 		right: 87px;
+		
 	}
 }
 
