@@ -7161,7 +7161,7 @@ body.boxed {
 }
 
 .corner.ls.ms.corner-inverse:after {
-	border-bottom-color: #f2f2f2;
+	/* border-bottom-color: #f2f2f2; */
 }
 
 .corner.ds.corner-mirror:before,
@@ -20604,12 +20604,18 @@ h4.margin {
 	font-size: 54px;
 	font-weight: 500;
 	line-height: 1;
-	margin-bottom: 1050px;
 	opacity: 0.3;
 	outline: none;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
+}
+#title{
+	text-align: center;
+}
+
+#team{
+	object-fit: contain;
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
