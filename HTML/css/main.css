@@ -20616,6 +20616,10 @@ h4.margin {
 
 #team{
 	object-fit: contain;
+	 height: 40%;
+	width: 40%; 
+	border-radius: 40%;
+	margin: 0 auto;
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -20786,8 +20790,9 @@ h4.margin {
 
 @media (max-width: 767px) {
 	.shortcode-team-slider .flexslider .slides img {
-		position: relative;
+		/* position: relative; */
 		right: 87px;
+		
 	}
 }
 
