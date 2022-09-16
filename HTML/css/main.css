@@ -19216,7 +19216,7 @@ a.btn {
 
 @media (max-width: 767px) {
 	.blog-post-carousel .container-fluid {
-		padding: 0 15px;
+		padding: 0;
 	}
 }
 
@@ -19271,7 +19271,13 @@ a.btn {
 .team .vertical-item.content-padding .item-content {
 	padding: 52px 50px 70px;
 }
-
+div.ls{ 
+	background-color: #f2f2f2;
+}
+#title{
+	background-color: #f2f2f2;
+	padding-top: 20px;
+}
 @media (max-width: 1199px) {
 	.team .vertical-item.content-padding .item-content {
 		padding: 52px 30px 70px;
@@ -20615,11 +20621,11 @@ h4.margin {
 }
 
 #team{
-	object-fit: contain;
-	 height: 40%;
-	width: 40%; 
-	border-radius: 40%;
 	margin: 0 auto;
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	background-color: #f2f2f2;
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
