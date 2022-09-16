@@ -7157,7 +7157,9 @@ body.boxed {
 .corner.ls.ms.corner-mirror:before,
 .corner.ls.ms:after {
 	border-bottom-color: #f2f2f2;
-	border-top-color: #f2f2f2;
+	 border-top-color: #f2f2f2; 
+	 border-bottom-color: #f2f2f2;
+	/* background-color: #f2f2f2; */
 }
 
 .corner.ls.ms.corner-inverse:after {
@@ -9146,7 +9148,10 @@ span.muted-bg {
 .media.box-shadow {
 	padding: 30px;
 }
+.ls{
 
+	width: 105%;
+}}
 .media.ls [class*='bg-'],
 .media.ls .icon-bordered,
 .media.ds [class*='bg-'],
